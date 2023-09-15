@@ -9,7 +9,6 @@ if (!isset($_SESSION["login"])) {
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,7 +56,6 @@ if (!isset($_SESSION["login"])) {
                     <i class="far fa-star"></i>
                     <span>Dashboard</span></a>
             </li>
-
 
             <!-- Divider -->
             <hr class="sidebar-divider" />
@@ -193,7 +191,7 @@ if (!isset($_SESSION["login"])) {
                 </nav>
                 <!-- End of Topbar -->
 
-                <!-- Begin page Content -->
+                <!-- Begin Page Content -->
                 <div class="container-fluid">
 
                     <h3 align="center">

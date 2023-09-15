@@ -141,13 +141,17 @@ if (!isset($_SESSION["login"])) {
                             Kesehatan</a>
                         <a class="collapse-item" href="rekap_publik.php">Rekapitulasi Realisasi <br />
                             Publik</a>
+                        <a class="collapse-item" href="rekap_pstun.php">Rekapitulasi Realisasi <br />
+                            Penurunan Stunning</a>
+                        <a class="collapse-item" href="rekap_spm.php">Standar Pelayanan
+                            <br />
+                            Minimum</a>
                     </div>
                 </div>
             </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block" />
-
 
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
