@@ -247,7 +247,7 @@ if (!isset($_SESSION["login"])) {
                                         </font>
                                     </div>
                                     <div class="icon">
-                                        <i class="ion ion-cloud"></i>
+                                        <i class="ion ion-android-search"></i>
                                     </div>
                                     <a href="monitoring.php" class="small-box-footer ">
                                         <i class="fa fa-arrow-circle-right" style="color: white;"></i>
