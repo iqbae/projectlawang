@@ -16,6 +16,7 @@ if (!isset($_SESSION["login"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 
     <title>Lawang Kota</title>
 
@@ -49,7 +50,7 @@ if (!isset($_SESSION["login"])) {
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="index.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="far fa-star"></i>
                     <span>Dashboard</span></a>
             </li>
 
@@ -120,6 +121,11 @@ if (!isset($_SESSION["login"])) {
                             Kesehatan</a>
                         <a class="collapse-item" href="rekap_publik.php">Rekapitulasi Realisasi <br />
                             Publik</a>
+                        <a class="collapse-item" href="rekap_pstun.php">Rekapitulasi Realisasi <br />
+                            Penurunan Stunning</a>
+                        <a class="collapse-item" href="rekap_spm.php">Standar Pelayanan
+                            <br />
+                            Minimum</a>
                     </div>
                 </div>
             </li>
@@ -127,14 +133,12 @@ if (!isset($_SESSION["login"])) {
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block" />
 
-
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
         </ul>
         <!-- End of Sidebar -->
-
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -149,13 +153,9 @@ if (!isset($_SESSION["login"])) {
                         </button>
                     </form>
 
-
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
-
-
                         <div class="topbar-divider d-none d-sm-block"></div>
-
 
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">

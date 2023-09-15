@@ -1,12 +1,10 @@
 <?php
-
 session_start();
 
 if (!isset($_SESSION["login"])) {
     header("Location: login.php");
     exit;
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +16,7 @@ if (!isset($_SESSION["login"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>Lawang Kota - Dashboard</title>
 
     <!-- Custom fonts for this template-->
@@ -194,7 +192,7 @@ if (!isset($_SESSION["login"])) {
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <h3 align="center">
+                    <h3 align="center" style="width: max-content;">
                         Ini Rangka Awal Dari Dashboard
                     </h3>
 
@@ -312,10 +310,7 @@ if (!isset($_SESSION["login"])) {
 
 
                 <!-- jQuery UI 1.11.4 -->
-                <script src="vendor/jquery-ui/jquery-ui.min.js"></script>
-                <script>
-                    $.widget.bridge("uibutton", $.ui.button);
-                </script>
+
                 <script src="vendor/jquery/jquery.min.js"></script>
                 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -327,11 +322,11 @@ if (!isset($_SESSION["login"])) {
                 <script src="dist/js/adminlte.js"></script>
 
                 <!-- Page level plugins -->
-                <script src="vendor/chart.js/Chart.min.js"></script>
+                <!-- <script src="vendor/chart.js/Chart.min.js"></script> -->
 
                 <!-- Page level custom scripts -->
-                <script src="js/demo/chart-area-demo.js"></script>
-                <script src="js/demo/chart-pie-demo.js"></script>
+                <!-- <script src="js/demo/chart-area-demo.js"></script> -->
+                <!-- <script src="js/demo/chart-pie-demo.js"></script> -->
                 <script src="vendor/fontawesome-free/js/all.min.js"></script>
                 <!-- Footer, biar kebawah footer nya-->
                 <div style="margin-top: 200px;"></div>
