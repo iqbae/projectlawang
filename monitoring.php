@@ -252,7 +252,7 @@ if (!isset($_SESSION["login"])) {
                                     while ($tampil = mysqli_fetch_array($ambildata)) {
                                         echo "
                                             <tr>
-                                            <td>$tampil[no]</td>
+                                            <td>$tampil[nomor]</td>
                                             <td>$tampil[nm_skpd]</td>
                                             <td>$tampil[jan]</td>
                                             <td>$tampil[feb]</td>

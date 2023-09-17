@@ -240,9 +240,9 @@ if (!isset($_SESSION["login"])) {
                                     while ($tampil = mysqli_fetch_array($ambildata)) {
                                         echo "
                                             <tr>
-                                            <td>$tampil[no]</td>
+                                            <td>$tampil[nomor]</td>
                                             <td>$tampil[bulan]</td>
-                                            <td></td>
+                                            <td>$tampil[tgl]</td>
                                             <td>$tampil[file]</td>
                                             <td></td>
                                             
